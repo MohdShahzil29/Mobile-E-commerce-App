@@ -37,7 +37,7 @@ export default function App() {
       <ContextProvider>
         <SearchProvider>
         <CartProvider>
-        <Stack.Navigator initialRouteName="Home">
+        <Stack.Navigator initialRouteName="Login">
           <Stack.Screen
             name="Login"
             component={Login}
